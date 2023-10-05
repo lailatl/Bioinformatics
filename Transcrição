@@ -1,0 +1,13 @@
+# Transcrição de rna
+
+dna = input()
+rna = ""
+
+for i in dna :
+    if i == "G" : rna += "C"
+    elif i == "C" : rna += "G"
+    elif i == "A" : rna += "U"
+    elif i == "T" : rna += "A"
+    elif i == "." : rna += "."
+
+print(rna)
